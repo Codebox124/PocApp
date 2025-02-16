@@ -5,7 +5,7 @@ import { MaterialIcons } from "@expo/vector-icons";
 export default function AlertScreen() {
     return (
         <View style={styles.container}>
-            {/* <Image source={require("./assets/logo.png")} style={styles.logo} /> */}
+         <Image source={require("@/assets/images/logo.png")} style={styles.logo} /> 
             <Text style={styles.title}>aISOC</Text>
 
             <View style={styles.alertBox}>
@@ -53,6 +53,7 @@ export default function AlertScreen() {
 
 const styles = StyleSheet.create({
     container: {
+        
         flex: 1,
         backgroundColor: "#f5f5dc",
         padding: 20,
@@ -60,8 +61,8 @@ const styles = StyleSheet.create({
         justifyContent: "center",
     },
     logo: {
-        width: 100,
-        height: 100,
+        width: 150,
+        height: 150,
     },
     title: {
         fontSize: 22,
