@@ -15,7 +15,7 @@ export default function AlertScreen() {
                 <Text>Alert detail Bla bla bla</Text>
             </View>
 
-            <View style={styles.alertBox}>
+            <View style={styles.replyBox}>
                 <Text style={styles.alertTitle}>Reply</Text>
                 <TouchableOpacity style={styles.buttonLight}>
                     <Text style={styles.buttonTextDark}>Yes</Text>
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
     container: {
         
         flex: 1,
-        backgroundColor: "#f5f5dc",
+        backgroundColor: "#e2dcaa",
         padding: 20,
         alignItems: "center",
         justifyContent: "center",
@@ -71,7 +71,17 @@ const styles = StyleSheet.create({
     },
     alertBox: {
         width: "100%",
-        backgroundColor: "#ece3b0",
+        backgroundColor: "#e4e0b8",
+        padding: 15,
+        borderRadius: 10,
+        marginBottom: 20,
+        borderWidth: 1,
+        borderColor: "green",
+    },
+
+    replyBox: {
+        width: "100%",
+        backgroundColor: "#dfdcb9",
         padding: 15,
         borderRadius: 10,
         marginBottom: 20,
@@ -87,7 +97,7 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
     },
     buttonLight: {
-        backgroundColor: "green",
+        backgroundColor: "#d5cd85",
         padding: 10,
         borderRadius: 5,
         marginVertical: 5,
@@ -112,7 +122,7 @@ const styles = StyleSheet.create({
         width: "100%",
     },
     button: {
-        backgroundColor: "green",
+        backgroundColor: "#275316",
         padding: 10,
         borderRadius: 5,
         alignItems: "center",
@@ -124,7 +134,7 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
     },
     historyButton: {
-        backgroundColor: "red",
+        backgroundColor: "#870100",
         padding: 10,
         borderRadius: 5,
         alignItems: "center",
